@@ -1,0 +1,10 @@
+.container {
+    max-width: 900px;
+    margin: 10px 3px;
+    background-color: rgb(6, 38, 65);
+    color: beige;
+    text-align: center;
+    display: flex;
+    gap: 3px;
+    align-items:center;
+}

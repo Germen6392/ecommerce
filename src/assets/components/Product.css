@@ -1,0 +1,21 @@
+.container-product {
+    max-width: 479px;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 2px auto;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
