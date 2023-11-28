@@ -1,15 +1,15 @@
 import './Product.css'
-function Product() {
+function Product({name,sku,description,price,quantity}) {
     return ( 
     <>
         <div className="container-product">
         <article>
-          <h3>Notebook Dell Inspiron</h3>
+          <h3>{name}</h3>
             <ul>
-              <li>SKU 3525</li>
-              <li>AMD Ryzen 5 5500U 8 GB de RAM 256 GB SSD</li>
-              <li>$479.999</li>
-              <li>Cantidad disponible 10</li>
+              <li>SKU {sku}</li>
+              <li>{description}</li>
+              <li>{price}</li>
+              <li>Cantidad Disponible: {quantity}</li>
             </ul>  
         </article>
         </div>
