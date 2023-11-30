@@ -1,0 +1,15 @@
+button {
+background:linear-gradient(180deg, rgba(170,0,0,1) 0%, rgba(5,5,5,1) 50%, rgba(186,9,9,1) 97%);
+color:white;
+border:none;
+border-radius:20px;
+padding: 10px 15px;
+display: flex;
+align-self: center;
+text-align: center;
+}
+
+button:hover {
+background: linear-gradient(107deg, rgba(0,109,170,1) 0%, rgba(5,5,5,0.727013062895014) 50%, rgba(53,9,186,1) 97%); 
+}
+

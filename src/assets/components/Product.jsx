@@ -7,8 +7,8 @@ function Product({name,sku,description,price,quantity}) {
           <h3>{name}</h3>
             <ul>
               <li>SKU {sku}</li>
-              <li>{description}</li>
-              <li>{price}</li>
+              <li className='description'>{description}</li>
+              <li className='price'>{price}</li>
               <li>Cantidad Disponible: {quantity}</li>
             </ul>  
         </article>

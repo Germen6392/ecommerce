@@ -5,6 +5,9 @@ function App() {
 
   return (
     <>
+
+    <main>
+    
       <div className='container'>
         <h1>Detalle del Producto</h1>
           <Product
@@ -15,7 +18,7 @@ function App() {
                 quantity="10"/>
 
       </div>
-    
+    </main>
       <Button/>
 
       
